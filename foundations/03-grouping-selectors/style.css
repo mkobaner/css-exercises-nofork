@@ -1,0 +1,12 @@
+.u1 {
+    background-color: black;
+    color: white;
+}
+.u2 {
+    background-color: yellow;
+}
+
+.u1,.u2 {
+font-size: 28px;
+font-family: Helvetica, "Times New Roman", sans-serif;
+}
