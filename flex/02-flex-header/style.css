@@ -1,6 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* flex mod is active in container, x axis spaced evenly, y centered*/
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,11 +16,19 @@
 }
 
 ul {
-  /* this removes the dots on the list items*/
+ 
   list-style-type: none;
+
+  /* inside ul*/
   display: flex;
+  padding: 16px;
+  margin-left: 8px;
+  gap: 8px;
 }
 
+.left-links ~ul{
+justify-content: flex-start;
+}
 a {
   font-size: 22px;
   background: white;
